@@ -29,8 +29,9 @@ Maintaining a responsive layout across devices
 Ensuring search and sort work together seamlessly
 
 #Domain
-👉 https://.github.io/product-catalogue-filter/
+👉 https://madhumithamariappan22-source.github.io/product-catalogue-filter/
 
 Author
 
-Gopika 📩 gopikarthii116@gmail.com
+Madhumitha M
+📩 madhumithamaariappan22@@gmail.com
