@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Product Catalog</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for products...">
+        </div>
+    </header>
+
+    <main>
+        <aside>
+            <div class="filter-container">
+                <h3>Filters</h3>
+                <div class="filter-group">
+                    <h4>Category</h4>
+                    <div id="category-filters"></div>
+                </div>
+                <div class="filter-group">
+                    <h4>Price</h4>
+                    <input type="range" id="price-range" min="0" max="1000" step="10">
+                    <div class="price-range-labels">
+                        <span>$0</span>
+                        <span>$1000</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <section id="product-grid-container">
+            <div class="sort-container">
+                <label for="sort-by">Sort by:</label>
+                <select id="sort-by">
+                    <option value="price-asc">Price: Low to High</option>
+                    <option value="price-desc">Price: High to Low</option>
+                    <option value="rating-desc">Rating: High to Low</option>
+                </select>
+            </div>
+            <div id="product-grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Product Catalog</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

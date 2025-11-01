@@ -1,0 +1,44 @@
+
+[
+  {
+    "id": 1,
+    "name": "Classic T-Shirt",
+    "category": "Apparel",
+    "price": 25.99,
+    "rating": 4.5,
+    "imageUrl": ""
+  },
+  {
+    "id": 2,
+    "name": "Wireless Headphones",
+    "category": "Electronics",
+    "price": 89.99,
+    "rating": 4.8,
+    "imageUrl": ""
+  },
+
+  {
+    "id": 3,
+    "name": "Coffee Mug",
+    "category": "Home Goods",
+    "price": 12.50,
+    "rating": 4.2,
+    "imageUrl": ""
+  },
+  {
+    "id": 4,
+    "name": "Leather Wallet",
+    "category": "Accessories",
+    "price": 45.00,
+    "rating": 4.6,
+    "imageUrl": ""
+  },
+  {
+    "id": 5,
+    "name": "Running Shoes",
+    "category": "Footwear",
+    "price": 120.00,
+    "rating": 4.9,
+    "imageUrl": ""
+  }
+]
